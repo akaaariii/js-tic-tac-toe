@@ -1,0 +1,19 @@
+problem
+1.sass
+// error message
+{
+  "status": 1,
+  "file": "/Users/akari/Documents/Jiro_Assignment_03/ws-0300-js-tic-tac-toe/stylesheets/sass/index.sass",
+  "line": 4,
+  "column": 1,
+  "message": "File to import not found or unreadable: ./modulestable.",
+  "formatted": "Error: File to import not found or unreadable: ./modulestable.\n        on line 4 of stylesheets/sass/index.sass\n>> @import './modulestable';\n\n   ^\n"
+}
+
+// how to solve
+modify "@import" path of directory in index.sass file.
+// when we success to compile sass to css, we can get a message like below
+//
+Rendering Complete, saving .css file...
+Wrote CSS to /Users/akari/Documents/Jiro_Assignment_03/ws-0300-js-tic-tac-toe/stylesheets/index.css
+//
