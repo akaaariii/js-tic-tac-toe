@@ -1,0 +1,1 @@
+table,tr,td{border:2px solid black;border-collapse:collapse;margin:auto}.cell{cursor:pointer;height:48px;width:48px;text-align:center;font-size:2rem}.turn{display:flex;padding:10px 16px 40px}.turn-item{font-size:1.5em;padding:8px;text-align:center;width:100%}.turn-item.active{border-bottom:4px solid black}
